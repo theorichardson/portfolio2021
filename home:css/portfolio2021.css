@@ -1,0 +1,588 @@
+@import url("https://use.typekit.net/pgj6oax.css");
+
+
+/*-----MASTER-----*/
+
+main{
+	overflow-x: 0;
+	padding:0px;
+	margin: 0px;
+}
+
+body{
+	background-color: white;
+	padding:0px;
+	margin:0px;
+	overscroll-behavior: none;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+h1{
+	color: rgb(0 150 69);
+}
+
+h2{
+	font-weight: lighter;
+	margin:0px;
+
+	color: rgb(150 150 150);
+}
+
+p{
+	color: rgb(80 80 80);
+
+	font-size: 1vw;
+}
+
+strong{
+	color: rgb(0 150 69)
+}
+
+
+.header{
+	background-color: white;
+
+	width:99%;
+	height:6vh;
+	padding:1vw;
+	padding-left:14vw;
+	padding-bottom: 0px;
+	padding-top: .5vw;
+
+
+	position: -webkit-sticky;
+	position: sticky;
+	left:0vw;
+
+
+	z-index:10;
+}
+
+.headerSm{
+	background-color: white;
+
+	width:99%;
+	height:3.5vh;
+	padding:1vw;
+	padding-left:14vw;
+	padding-bottom: 1vw;
+	padding-top: .75vw;
+
+	position: -webkit-sticky;
+	position: sticky;
+	left:0vw;
+
+	display: block;
+}
+
+.title{
+	position: fixed;
+}
+
+.title2{
+	position: fixed;
+}
+
+
+
+
+
+
+/*----HOME----*/
+
+.projects{
+
+display:flex;
+grid-template-columns:1fr 1fr;
+
+padding-top:5vw;
+}
+
+.project {
+  padding: 0px;
+  margin-left:3.4vh;
+  margin-right:3.4vh;
+
+
+  transition: transform .5s;
+  /*border:1px solid blue;*/
+  padding:50px;
+}
+
+.project:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.project img {
+	max-height:45.7vh;
+}
+
+
+
+
+
+
+
+
+
+/*-----Maps-----*/
+
+.maps{
+	display:flex;
+	flex-direction: column;
+	width:99vw;
+
+	text-align: center;
+}
+
+.maps img{
+	width:80vw;
+}
+
+.mapsMobile{
+	display:none;
+}
+
+
+
+
+/*------GENERATIVE CHAIRS-----
+
+.images-grid{
+	display:grid;
+	width:60%;
+	margin:auto;
+	text-align: center;
+}
+
+
+.rotation img{
+		max-height: 100%;  
+        max-width: 100%;  
+        margin: auto;
+        align-content: center;
+        object-fit: cover;
+}*/
+
+
+.images-grid{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.images-grid img{
+	width:49.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------NEW XESTO-----------*/
+
+.xesto-images-grid{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100%;
+}
+
+.xesto-images-grid img{
+	display: inline-block;
+
+	width:20vw;
+	padding:1vw;
+}
+
+/*.description{
+	padding-left:4vw;
+	padding-right: 4vw;
+}*/
+
+#outer-div {
+        width: 100%;
+        text-align: center;
+      }
+
+      #inner-div {
+        display: inline-block;
+        margin: 3vw;
+        padding: 3px;
+
+        width:15vw;
+        height: 20vw;
+      }
+
+      #inner-div img{
+        display: inline-block;
+        padding: 3px;
+
+        width:15vw;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------PROFILE-----*/
+
+.me{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.meDescription{
+	margin-top: -2vw;
+}
+
+.gallery{
+	height:400px;
+	display: flex;
+	margin:auto;
+	padding: 4vh;
+	padding-bottom: 0vh;	
+}
+
+.photosOfMe{
+/*background-color: green;*/
+  width: 400px;
+  height:400px;
+  text-align: center;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+
+.photosOfMe img{
+height:22vw;
+}
+
+
+
+/*------UBER EATS AR-----*/
+
+.wholePage {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.wholePage img{
+	height: 100%;
+	width:100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+/*PAGES*/
+
+
+.bigPic{
+
+  display:flex;
+  /*grid-gap: 4vw;*/
+  text-align: center;
+
+  width:60%;
+  text-align: left;
+  padding: 2vw;
+  padding-top: 0px;
+  margin:auto;
+  margin-top:5vw;
+}
+
+.bigPic img{
+  width:20vw;
+  padding-right:4vw;
+}
+
+.description img{
+  width:3.3vw;
+  padding-right:1vw;
+}
+
+
+
+
+/*APPLE GAMING*/
+
+.ads{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+}
+
+.ads img{
+	width:49.5vw;
+}
+
+
+
+
+/*XESTO LOGO*/
+
+.xestoLogo{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+}
+
+.xestoLogo img{
+	width:49.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----XESTO-----
+
+.xestoVideo {
+	display: block;
+	padding:auto;
+	margin:auto;
+	width:40vh;
+	text-align: center;
+	-webkit-appearance:none;
+}
+
+.xestoVideo video{
+	height:90vh;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						@media screen and (max-width: 1200px) {
+						    body{
+						        /*background-color: red;*/
+						    }
+
+						    main{
+							/*overflow-x: 0;
+							overflow-y: 0;*/
+						    }
+
+p{
+
+font-size:4.5vw;
+padding: 4vh;
+}
+
+
+						    .projects{
+
+							display:flex;
+							width: 100%;
+							flex-direction: column;
+							/*background-color:red;*/ 
+							justify-content: center;
+							/*margin-left: 15vw;
+							padding-left: 9vw;*/
+
+							overflow-x: hidden;
+							}
+
+
+							.projects img{
+								object-fit: contain;
+							}
+
+							.project{
+							text-align:center;
+							margin-right: 0px;
+							margin-left: 0px;
+							padding-right: 0px;
+							padding-left: 0px;
+							}
+
+
+
+.header{
+	display: none;
+}
+
+					.headerSm{
+						display: none;
+					}
+
+					.title{
+						position: -webkit-sticky;
+						position: sticky;
+						top:1vw;
+
+					}
+
+
+
+
+
+							.grid{
+								margin-top: 0vh;
+								padding-bottom: 10vh;
+								width:43vh;
+								height:43vh;
+								margin: auto;
+							}
+
+							.thesis{
+								padding-left: 0vh;
+								padding-right: 0vh;
+							}
+
+
+													.me{
+														margin-bottom: 0px;
+														padding-bottom: 0px;
+													}
+
+													.gallery {
+														display: none;
+													}
+
+.maps{
+	display: none;
+}
+
+
+	.mapsMobile{
+	display:flex;
+	flex-direction: column;
+	width:99vw;
+
+	text-align: center;
+}
+
+.mapsMobile img{
+	width:80vw;
+}
+
+
+
+.xestoVideo {
+	display: block;
+	padding:auto;
+	margin:auto;
+	text-align: center;
+	object-fit: scale-down;
+}
+
+.xestoVideo video{
+	height:80vh;
+	margin:auto;
+}
+
+
+
+.images-grid{
+
+display:flex;
+flex-direction: column;
+text-align: center;
+width: 100%;
+}
+
+.images-grid img{
+width:100vw;
+}
+
+
+/*APPLE GAMING*/
+
+.ads{
+	display:flex;
+	flex-direction: column;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100%;
+}
+
+.ads img{
+	width:100vw;
+}
+
+
+div#firstOne   {-webkit-order: 1;}
+div#secondOne  {-webkit-order: 2;}
+div#thirdOne   {-webkit-order: 4;}
+div#fourthOne  {-webkit-order: 3;}
+div#fifthOne   {-webkit-order: 5;}
+div#sixthOne   {-webkit-order: 6;}
+
+div#inner-div1   {-webkit-order: 1;}
+div#inner-div2   {-webkit-order: 2;}
+div#inner-div3   {-webkit-order: 3;}
+
+
+/*XESTO LOGO*/
+
+.xestoLogo{
+	display:flex;
+	flex-direction: column;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100%;
+}
+
+.xestoLogo img{
+	width:100vw;
+}
+													
+
+
+
+
+}

@@ -1,0 +1,504 @@
+body{
+	padding:0px;
+	margin:0px;
+
+	/*background-color: rgb(215 215 215);*/ 
+
+	overflow-x: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h1{
+	color: rgb(0 150 69);
+}
+
+h2{
+	font-weight: lighter;
+	margin:0px;
+
+	color: rgb(150 150 150);
+}
+
+p{
+	color: rgb(80 80 80);
+
+	font-size: 1vw;
+}
+
+strong{
+	color: rgb(0 150 69)
+}
+
+
+
+.header{
+	background-color: white;
+
+	width:99%;
+	height:6vh;
+	padding:1vw;
+	padding-left:14vw;
+	padding-bottom: 0px;
+	padding-top: .5vw;
+
+
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: -2vh;
+
+
+	z-index:10;
+}
+
+.headerSm{
+	background-color: white;
+
+	width:99%;
+	height:3.5vh;
+	padding:1vw;
+	padding-left:14vw;
+	padding-bottom: 1vw;
+	padding-top: .75vw;
+
+	margin-bottom:4vw;
+
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0.45vh;
+
+	z-index:1;
+
+	display: block;
+}
+
+.title{
+	position: -webkit-sticky;
+	position: sticky;
+	top:1vw;
+
+}
+
+
+
+
+
+.wholeSec{
+
+display: inline-block;
+
+/*background-color: blue;*/
+}
+
+
+
+
+
+
+
+/*----------IMAGES GRID------------*/
+
+.images-grid{
+		width: 100%;
+        text-align: center;
+}
+
+.images-grid-mobile{
+		display: none;	
+}
+
+#inner-div {
+        display: inline-block;
+        margin: 3vw; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+      }
+
+      #inner-div img{
+        display: inline-block;
+        width:20vw;
+      }
+
+
+
+/*#inner-divGD:hover {
+  transform: scale(1.3);
+
+  transition: transform .5s;
+}*/
+
+
+#inner-divGD {
+        display: inline-block;
+        margin: auto; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:18vw;
+        height: 20vw;
+      }
+
+      #inner-divGD img{
+        display: inline-block;
+        width:18vw;
+      }
+
+#inner-divGDM {
+        display: inline-block;
+        margin: auto; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:35vw;
+        height: 100%;
+      }
+
+      #inner-divGDM img{
+        display: inline-block;
+        width:35vw;
+      }
+
+
+
+
+/*#inner-divX:hover {
+  transform: scale(1.3);
+
+  transition: transform .5s;
+}*/
+
+
+#inner-divX {
+        display: inline-block;
+        margin: 3vw; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:14vw;
+        height:100%;
+      }
+
+      #inner-divX img{
+        display: inline-block;
+        width:14vw;
+      }
+
+
+	#inner-divMP {
+        display: inline-block;
+        margin: 3vw; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:75vw;
+        height: 100%;
+      }
+
+      #inner-divMP img{
+        display: inline-block;
+        width:75vw;
+      }
+
+
+
+
+
+
+
+
+/*---------SECTIONS----------*/
+
+
+
+.sections{
+/*background-color: rgb(215 215 215);*/
+
+width:99vw;
+
+display:flex;
+flex-direction: column;
+
+text-align: center;
+}
+
+.sectionWhole{
+/*background-color: blue;*/
+
+width:99vw;
+
+display:flex;
+flex-wrap: nowrap;
+
+text-align: center;
+
+padding-bottom:3vw;
+}
+
+
+
+
+						.sectionLeft{
+							/*background-color: yellow;
+							border:1px solid blue;*/
+
+							width:30%;
+
+							padding:9vw;
+							padding-right: 4vw;
+							padding-bottom: 0vw;
+							padding-top:0vw;
+							margin:5vw;
+							margin-right:0px;
+							margin-top:2vw;
+
+							text-align: left;
+						}
+
+						.sectionRight{
+							/*background-color: pink;
+							border:1px solid red;*/
+
+							width:70%;
+
+
+							padding:9vw;
+							padding-bottom: 0vw;
+							padding-left: 4vw;
+							padding-top:0vw;
+							margin:5vw;
+							margin-left: 0px;
+							margin-top:2vw;
+
+							text-align: left;
+						}
+
+
+
+
+
+
+
+
+
+
+					/* All the snapping stuff */
+					.scroll-container {
+					  height: 100vh;
+					  overflow-y: scroll;
+					  scroll-snap-type: y mandatory;
+					}
+
+					section {
+					  height: 100%;
+					  scroll-snap-align: center;
+
+					  padding-top:8vh;
+					  padding-bottom: 20vh;
+					}
+
+
+					/* Other styles */
+					section {
+					  background-color: white;
+					}
+
+					section:nth-child(2n) {
+					  background-color: rgb(200 200 200);
+					}
+
+					section:nth-child(3n) {
+					  background-color: rgb(210 210 210);
+					}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------MOBILE VERSION---------------------*/
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+					body{
+
+					}
+
+						p{
+
+					}
+
+					h1{
+
+						font-size: 4vh;
+						color: rgb(0 150 69);
+					}
+
+					h2{
+						font-size: 3vh;
+						font-weight: lighter;
+						margin:0px;
+
+						color: rgb(80 80 80);
+					}
+
+					p{
+						color: rgb(80 80 80);
+
+						font-size: 2vh;
+					}
+
+					strong{
+						color: rgb(0 150 69)
+					}
+
+
+					.header{
+						display: none;
+					}
+
+					.headerSm{
+						display: none;
+					}
+
+					.images-grid{
+						display:none;
+					}
+
+
+					.images-grid-mobile{
+					display:flex;
+					flex-direction: column;
+					width:100vw;
+
+					text-align: center;
+
+					overflow-x: hidden;
+					}
+
+					.images-grid-mobile img{
+					display:flex;
+					width:100vw;
+
+					text-align: center;
+					}
+
+
+					.title{
+						position: -webkit-sticky;
+						position: sticky;
+						top:1vw;
+
+					}
+
+
+					.video video{
+						width:72vw;
+					}
+
+
+					.sections{
+						display: flex;
+						flex-direction: column;
+
+						margin:auto;
+
+						width:100vw;
+						overflow-x: hidden;
+
+						padding:8vw;
+					}
+
+					.sectionWhole{
+					/*background-color: blue;*/
+					display:flex;
+					flex-direction: column;
+
+					width:99vw;
+					height: 100%;
+				
+
+					
+
+					text-align: center;
+					}
+
+					/*.container {
+					  scroll-snap-type: mandatory;
+					  scroll-snap-points-y: repeat(300px);
+					  scroll-snap-type: y mandatory;
+					}
+
+					.child {
+					  scroll-snap-align: start;
+					}*/
+
+
+											.sectionLeft{
+												/*background-color: yellow;*/
+
+												width:100%;
+
+												margin:auto;
+												padding:auto;
+												padding-left: 5vw;
+
+
+												text-align: left;
+											}
+
+											.sectionRight{
+												/*background-color: pink;*/
+
+												width:100%;
+												margin:auto;
+												padding:auto;
+
+												text-align: left;
+											}
+
+
+					}
+
