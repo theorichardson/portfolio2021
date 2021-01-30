@@ -1,10 +1,14 @@
+@import url("https://use.typekit.net/pgj6oax.css");
+
 body{
+
+	font-family: neue-haas-grotesk-display, sans-serif;
 	padding:0px;
 	margin:0px;
 
 	/*background-color: rgb(215 215 215);*/ 
 
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 a:link {
@@ -12,10 +16,12 @@ a:link {
 }
 
 h1{
+	font-size: 3vw;
 	color: rgb(0 150 69);
 }
 
 h2{
+	font-size: 2vw;
 	font-weight: lighter;
 	margin:0px;
 
@@ -25,7 +31,7 @@ h2{
 p{
 	color: rgb(80 80 80);
 
-	font-size: 1vw;
+	font-size: 1.2vw;
 }
 
 strong{
@@ -37,17 +43,16 @@ strong{
 .header{
 	background-color: white;
 
-	width:99%;
 	height:6vh;
 	padding:1vw;
 	padding-left:14vw;
-	padding-bottom: 0px;
+	padding-bottom: 3vw;
 	padding-top: .5vw;
 
 
 	position: -webkit-sticky;
   	position: sticky;
-  	top: -2vh;
+  	top: -4vh;
 
 
 	z-index:10;
@@ -56,12 +61,12 @@ strong{
 .headerSm{
 	background-color: white;
 
-	width:99%;
+
 	height:3.5vh;
 	padding:1vw;
 	padding-left:14vw;
 	padding-bottom: 1vw;
-	padding-top: .75vw;
+	padding-top: 0vw;
 
 	margin-bottom:4vw;
 
@@ -80,6 +85,140 @@ strong{
 	top:1vw;
 
 }
+
+
+
+
+/*----HOME----*/
+
+.projects{
+
+display:flex;
+grid-template-columns:1fr 1fr;
+
+padding-top:0vw;
+
+overflow-x: scroll;
+overflow-y:hidden;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+.project {
+  padding: 0px;
+
+
+  transition: transform .5s;
+ }
+
+.project img {
+	max-height:45.7vh;
+}
+
+
+
+.projectsGD{
+
+display:flex;
+grid-template-columns:1fr 1fr;
+
+padding-top:0vw;
+
+/*padding-left: 14vw;*/
+
+overflow-x: scroll;
+overflow-y:hidden;
+}
+
+.projectsGD::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+.projectsGDM{
+
+display:flex;
+grid-template-columns:1fr 1fr;
+
+padding-top:0vw;
+
+/*padding-left: 10vw;*/
+
+overflow-x: scroll;
+overflow-y:hidden;
+}
+
+.projectsGDM::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.projectMap {
+  padding: 0px;
+
+
+  transition: transform .5s;
+ }
+
+.projectMap img {
+	max-height:70vh;
+}
+
+
+
+
+.projectsX{
+
+display:flex;
+grid-template-columns:1fr 1fr;
+
+padding-top:0vw;
+
+/*padding-left:20vw;*/
+
+overflow-x: scroll;
+overflow-y:hidden;
+}
+
+.projectsX::-webkit-scrollbar {
+    display: none;
+}
+
+.projectX {
+  padding: 0px;
+ }
+
+.projectX img {
+	max-width:18vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,6 +343,40 @@ display: inline-block;
       #inner-divMP img{
         display: inline-block;
         width:75vw;
+      }
+
+
+
+      #inner-divP {
+        display: inline-block;
+        margin: 1vw; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:20vw;
+        height: 100%;
+      }
+
+      #inner-divP img{
+        display: inline-block;
+        width:20vw;
+      }
+
+      #inner-divP2 {
+        display: inline-block;
+        margin: 1vw; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:15vw;
+        height: 100%;
+      }
+
+      #inner-divP2 img{
+        display: inline-block;
+        width:15vw;
       }
 
 

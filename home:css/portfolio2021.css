@@ -10,10 +10,16 @@ main{
 }
 
 body{
+
+	font-family:neue-haas-grotesk-display, sans-serif;
 	background-color: white;
 	padding:0px;
 	margin:0px;
 	overscroll-behavior: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -22,10 +28,12 @@ a:link {
 }
 
 h1{
+	font-size: 3vw;
 	color: rgb(0 150 69);
 }
 
 h2{
+	font-size: 2vw;
 	font-weight: lighter;
 	margin:0px;
 
@@ -50,7 +58,7 @@ strong{
 	height:6vh;
 	padding:1vw;
 	padding-left:14vw;
-	padding-bottom: 0px;
+	padding-bottom: 3vw;
 	padding-top: .5vw;
 
 
@@ -62,6 +70,8 @@ strong{
 	z-index:10;
 }
 
+
+
 .headerSm{
 	background-color: white;
 
@@ -70,7 +80,7 @@ strong{
 	padding:1vw;
 	padding-left:14vw;
 	padding-bottom: 1vw;
-	padding-top: .75vw;
+	padding-top: 0vw;
 
 	position: -webkit-sticky;
 	position: sticky;
@@ -99,7 +109,11 @@ strong{
 display:flex;
 grid-template-columns:1fr 1fr;
 
-padding-top:5vw;
+padding-top:6vw;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
 }
 
 .project {
