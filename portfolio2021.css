@@ -377,8 +377,9 @@ height:22vw;
 
 
 
-
-
+.signalsMobile{
+	display: none;
+}
 
 
 
@@ -522,6 +523,14 @@ padding: 4vh;
 
 .mapsMobile img{
 	width:80vw;
+}
+
+.signals{
+	display:none;
+}
+
+.signalsMobile{
+	display:block;
 }
 
 
