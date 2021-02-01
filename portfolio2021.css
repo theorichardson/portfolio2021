@@ -89,6 +89,15 @@ strong{
 	display: block;
 }
 
+.headerMobile{
+	display:none;
+}
+
+.titleMobile{
+display: none;
+
+}
+
 .title{
 	position: fixed;
 }
@@ -437,6 +446,31 @@ font-size:4.5vw;
 padding: 4vh;
 }
 
+h1{
+	font-size:10vw;
+	line-height: 6vw;
+}
+
+
+.headerMobile{
+	background-color: white;
+
+	width:99%;
+	height:15vh;
+	padding:1vw;
+	padding-left:14vw;
+	padding-bottom: 3vw;
+	padding-top: .5vw;
+
+
+	position: -webkit-sticky;
+	position: sticky;
+	top:0vw;
+
+
+	z-index:10;
+}
+
 
 						    .projects{
 
@@ -467,59 +501,27 @@ padding: 4vh;
 
 
 .header{
-	display: none;
+	padding:0px;
+	padding-left: 13vw;
 }
 
-					.headerSm{
-						display: none;
-					}
-
-					.title{
-						position: -webkit-sticky;
-						position: sticky;
-						top:1vw;
-
-					}
-
-
-
-
-
-							.grid{
-								margin-top: 0vh;
-								padding-bottom: 10vh;
-								width:43vh;
-								height:43vh;
-								margin: auto;
-							}
-
-							.thesis{
-								padding-left: 0vh;
-								padding-right: 0vh;
-							}
-
-
-													.me{
-														margin-bottom: 0px;
-														padding-bottom: 0px;
-													}
-
-													.gallery {
-														display: none;
-													}
+.headerSm{
+	display: none
+}
 
 .maps{
 	display: none;
 }
 
 
-	.mapsMobile{
+.mapsMobile{
 	display:flex;
 	flex-direction: column;
 	width:99vw;
 
 	text-align: center;
 }
+
 
 .mapsMobile img{
 	width:80vw;
