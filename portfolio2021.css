@@ -430,10 +430,16 @@ height:22vw;
 
 
 
-						@media screen and (max-width: 1200px) {
+						@media screen and (max-width: 1200px){
 						    body{
-						        /*background-color: red;*/
+						        width:112vw;
+
+
 						    }
+
+						    body::-webkit-scrollbar {
+							display: none;
+							}
 
 						    main{
 							/*overflow-x: 0;
@@ -451,24 +457,13 @@ h1{
 	line-height: 6vw;
 }
 
+strong{
+	font-size:4.5vw;
+	padding: 4vh;
+}
 
-.headerMobile{
-	background-color: white;
-
-	width:99%;
-	height:15vh;
-	padding:1vw;
-	padding-left:14vw;
-	padding-bottom: 3vw;
-	padding-top: .5vw;
-
-
-	position: -webkit-sticky;
-	position: sticky;
-	top:0vw;
-
-
-	z-index:10;
+.title{
+	padding-left: 18vw;
 }
 
 
@@ -502,7 +497,7 @@ h1{
 
 .header{
 	padding:0px;
-	padding-left: 13vw;
+	background-color: white;
 }
 
 .headerSm{
