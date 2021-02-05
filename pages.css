@@ -100,10 +100,150 @@ display: none;
 
 
 
+
+
+.highlights{
+	padding-left:14vw;
+	padding-right:14vw;
+
+	margin-top: 3vw;
+	margin-bottom:0vw;
+
+	text-align: left;
+}
+
+.highlights2{
+	padding-left:14vw;
+	padding-right:14vw;
+
+	margin-top: 0vw;
+	margin-bottom:6vw;
+
+	text-align: left;
+}
+
+
+
+
+
 .contact{
 	padding:0px;
 	margin:0px;
 }
+
+/*----UPDATES----*/
+
+
+
+
+.mainWhole{
+/*background-color:lightgrey;*/
+
+width:99vw;
+
+display:flex;
+flex-wrap: nowrap;
+
+text-align: center;
+
+padding-bottom:2vw;
+}
+
+.mainWhole2{
+/*background-color:lightgrey;*/
+
+width:99vw;
+
+display:flex;
+flex-wrap: nowrap;
+
+text-align: center;
+
+padding-bottom:6vw;
+}
+
+
+
+						.mainLeft{
+							/*background-color: yellow;
+							border:1px solid blue;*/
+
+							width:33%;
+
+							padding:9vw;
+							padding-right: 4vw;
+							padding-bottom: 0vw;
+							padding-top:0vw;
+							margin:5vw;
+							margin-right:0px;
+							margin-top:1vw;
+							margin-bottom: 1vw;
+
+							text-align: left;
+						}
+
+						.mainMid{
+							/*background-color: pink;
+							border:1px solid red;*/
+
+							width:33%;
+
+
+							padding-right:4vw;
+							padding-bottom: 0vw;
+							padding-left: 4vw;
+							padding-top:0vw;
+							margin:5vw;
+							margin-left: 0px;
+							margin-top:1vw;
+							margin-right:0vw;
+							margin-bottom: 1vw;
+
+							text-align: left;
+						}
+
+						.mainRight{
+							/*background-color: pink;
+							border:1px solid red;*/
+
+							width:33%;
+
+
+							padding:9vw;
+							padding-bottom: 0vw;
+							padding-left: 4vw;
+							padding-top:0vw;
+							margin:5vw;
+							margin-left: 0px;
+							margin-top:1vw;
+							margin-bottom: 1vw;
+
+							text-align: left;
+						}
+
+
+
+
+
+.bigSignals img{
+	width:60vw;
+	padding-left:19vw;
+	padding-right: 19vw;
+
+	margin-top:-4vw;
+	margin-bottom:-1vw;
+}
+
+.bigSignalsMobile img{
+	display: none;
+}
+
+
+
+
+
+
+
 
 
 
@@ -888,6 +1028,140 @@ overflow-y:hidden;
 
 												text-align: left;
 											}
+
+
+
+
+
+
+
+
+
+.highlights{
+	padding-left:0vw;
+	padding-right:0vw;
+
+	margin-top: 3vw;
+	margin-bottom:0vw;
+
+	text-align: left;
+}
+
+.highlights2{
+	padding-left:0vw;
+	padding-right:0vw;
+
+	margin-top: 3vw;
+	margin-bottom:0vw;
+
+	text-align: left;
+}
+
+
+
+
+
+.contact{
+	padding:0px;
+	margin:0px;
+}
+
+/*----UPDATES----*/
+
+
+
+
+.mainWhole{
+/*background-color:lightgrey;*/
+
+width:99vw;
+
+display:flex;
+flex-wrap: nowrap;
+flex-direction: column;
+
+text-align: center;
+
+padding-bottom:2vw;
+}
+
+.mainWhole2{
+/*background-color:lightgrey;*/
+
+width:99vw;
+
+display:flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+text-align: center;
+
+padding-bottom:6vw;
+}
+
+
+
+						.mainLeft{
+							/*background-color: yellow;
+							border:1px solid blue;*/
+
+							width:100%;
+
+							padding:0vw;
+							margin:0vw;
+
+							text-align: left;
+						}
+
+						.mainMid{
+							/*background-color: pink;
+							border:1px solid red;*/
+
+							width:100%;
+
+							padding:0vw;
+							margin:0vw;
+
+							text-align: left;
+						}
+
+						.mainRight{
+							/*background-color: pink;
+							border:1px solid red;*/
+
+							width:100%;
+
+							padding:0vw;
+							margin:0vw;
+
+							text-align: left;
+						}
+
+
+
+
+
+.bigSignals img{
+	display: none;
+}
+
+.bigSignalsMobile img{
+	display: block;
+	width:60vw;
+	padding-left:19vw;
+	padding-right: 19vw;
+
+	margin-top:-4vw;
+	margin-bottom:-1vw;
+}
+
+
+
+
+
+
+
+
 
 
 					}
