@@ -106,7 +106,7 @@ display: none;
 	padding-left:14vw;
 	padding-right:14vw;
 
-	margin-top: 3vw;
+	margin-top: 0vw;
 	margin-bottom:0vw;
 
 	text-align: left;
@@ -118,6 +118,16 @@ display: none;
 
 	margin-top: 0vw;
 	margin-bottom:6vw;
+
+	text-align: left;
+}
+
+.highlightsS{
+	padding-left:14vw;
+	padding-right:14vw;
+
+	margin-top: 0vw;
+	margin-bottom:4vw;
 
 	text-align: left;
 }
@@ -146,7 +156,8 @@ flex-wrap: nowrap;
 
 text-align: center;
 
-padding-bottom:2vw;
+padding-bottom:0vw;
+padding-top: 1vw;
 }
 
 .mainWhole2{
@@ -159,7 +170,8 @@ flex-wrap: nowrap;
 
 text-align: center;
 
-padding-bottom:6vw;
+padding-bottom:0vw;
+padding-top: 1vw;
 }
 
 
@@ -315,6 +327,12 @@ overflow-y:hidden;
 .projectsGDM::-webkit-scrollbar {
     display: none;
 }
+
+.projectGDM img {
+	max-height:60vh;
+}
+
+
 
 
 
